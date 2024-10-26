@@ -1,1 +1,19 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --mainfont: "Inter-Variable";
+  --accfont: "PressStart2P";
+  --fwmain: 400;
+  --fwacc: 700;
+  --fwsubtitle: 400;
+  --fwtitle: 700;
+  --fc: #000000;
+  --bgc: #ffffff;
+  --bgi: repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
+    repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
+  --border-color: #000000;
+  --text-stroke: #ffffff;
+  --button-hover: #ffffff;
+  --spark: rgba(255, 0, 0, 1);
+  --core: #000000;
+}
