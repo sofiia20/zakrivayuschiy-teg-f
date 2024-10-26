@@ -427,7 +427,7 @@
   left: 0;
   transform-origin: 0 0;
   transform: translateX(-100%);
-  transition: all 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 dialog::backdrop {
