@@ -35,7 +35,7 @@
   padding-block-start: clamp(7.5rem, 7.148rem + 1.69vw, 8.5rem);
   display: grid;
   justify-items: center;
-  margin: 100px -5px 104px 0;
+  margin: 100px -5px 107px 0;
   width: 100%;
   padding-bottom: 13px;
 }
@@ -43,7 +43,7 @@
 .section {
   width: 100%;
   background-color: var(--bgc);
-  outline: 1px solid var(--border-color);
+  outline: 2px solid var(--border-color);
 }
 
 .title {
@@ -64,7 +64,7 @@
 
 .card-list {
   display: grid;
-  gap: 55px;
+  gap: 57px;
   outline: none;
 }
 
@@ -157,16 +157,16 @@
 
 .card-title {
   font-variation-settings: "wght" var(--fwtitle);
-  line-height: 21.78px;
+  line-height: 1.21;
   font-size: 18px;
-  padding: 3px 14px;
+  padding: 4px 19px 5px 12px;
 }
 
 .card-description {
   font-variation-settings: "wght" var(--fwsubtitle);
-  line-height: 21.5px;
+  line-height: 1.17;
   font-size: 18px;
-  padding: 25px 37px 27px 28px;
+  padding: 28px 37px 30px 28px;
 }
 
 .card-desc {
@@ -177,8 +177,8 @@
   position: relative;
   inset: 0;
   z-index: 0;
-  width: clamp(23.188rem, 16.035rem + 34.331vw, 43.5rem);
-  height: clamp(23.188rem, 16.035rem + 34.331vw, 43.5rem);
+  width: clamp(23rem, 15.782rem + 34.648vw, 43.5rem);
+  height: clamp(23rem, 15.782rem + 34.648vw, 43.5rem);
 }
 
 .image {
@@ -197,7 +197,7 @@
   font-size: 14px;
   line-height: 14px;
   top: 27px;
-  right: 23px;
+  right: 12px;
   color: rgba(0, 0, 0, 0.5);
   mix-blend-mode: hard-light;
   text-shadow: -1px -1px 0 var(--text-stroke), 1px -1px 0 var(--text-stroke),
@@ -316,14 +316,14 @@
   justify-content: flex-end;
   gap: 7px;
   text-align: end;
-  margin: 0 29px 25px;
+  margin: 0 32px 27px;
   max-height: 38px;
 }
 
 .card__like-button {
   border: none;
-  width: 130px;
-  height: 38px;
+  width: 126px;
+  height: 36px;
   overflow: hidden;
   outline: 2px solid var(--border-color);
   padding: 0;
@@ -376,7 +376,7 @@
   overflow: hidden;
   border: none;
   outline: 2px solid var(--border-color);
-  padding: 15px 19px;
+  padding: 17px 21px;
   position: relative;
   inset: 0;
   z-index: 0;
@@ -400,8 +400,6 @@
 .save .floppy {
   mix-blend-mode: difference;
   fill: var(--button-hover);
-  width: 21px;
-  height: 21px;
 }
 .save > .floppy {
   margin-bottom: 8px;
@@ -515,11 +513,31 @@ dialog:not([open]) {
   .save {
     display: flex;
     align-content: center;
+    padding: 15px 19px;
   }
   .save > .floppy {
     margin: 0 8px 0 0;
   }
   .dialog {
     padding: 30px;
+  }
+  .card-list {
+    gap: 54px;
+  }
+  .card-description {
+    padding: 29px 22px 27px 28px;
+  }
+  .watermark {
+    right: 23px;
+  }
+  .button-like {
+    margin: 0 27px 23px;
+  }
+  .save .floppy {
+    width: 21px;
+    height: 21px;
+  }
+  .card-title {
+    padding: 4px 19px 5px 12px;
   }
 }
