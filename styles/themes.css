@@ -24,9 +24,9 @@
   --fwtitle: 785;
   --bgc: #000000;
   --fc: #00cc14;
-  --bgi: repeating-linear-gradient(90deg, #000 0px 2px, transparent 2px 4px),
-    repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
-    linear-gradient(180deg, #007f0c 0, #004306 100%);
+  --bgi: repeating-linear-gradient(transparent 0px 2px, #000 2px 4px),
+  repeating-linear-gradient(90deg, #000 0px 2px, #007F0C 2px 4px),
+    linear-gradient(180deg, #007f0c 0%, #004306 100%);
   --border-color: #00cc14;
   --text-stroke: #00cc14;
   --button-hover: #00cc14;
@@ -40,34 +40,13 @@
     --fwtitle: 785;
     --bgc: #000000;
     --fc: #00cc14;
-    --bgi: repeating-linear-gradient(90deg, #000 0px 2px, transparent 2px 4px),
-      repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
-      linear-gradient(180deg, #007f0c 0, #004306 100%);
+    --bgi: repeating-linear-gradient(transparent 0px 2px, #000 2px 4px),
+      repeating-linear-gradient(90deg, #000 0px 2px, #007F0C 2px 4px),
+      linear-gradient(180deg, #007f0c 0%, #004306 100%);
     --border-color: #00cc14;
     --text-stroke: #00cc14;
     --button-hover: #00cc14;
     --spark: rgba(255, 0, 0, 1);
     --core: #00cc14;
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --fwsubtitle: 400;
-    --fwtitle: 700;
-    --bgc: #ffffff;
-    --fc: #000000;
-    --bgi: repeating-linear-gradient(
-        90deg,
-        #d3d3d3 0px 2px,
-        transparent 2px 4px
-      ),
-      repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
-      linear-gradient(180deg, #e7e7e7 0.01%, #1a1a1a 100%);
-    --border-color: #000000;
-    --text-stroke: #ffffff;
-    --button-hover: #ffffff;
-    --spark: rgba(255, 0, 0, 1);
-    --core: #000000;
   }
 }
