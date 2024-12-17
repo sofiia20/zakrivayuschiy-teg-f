@@ -12,8 +12,8 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--mainfont), "Arial", sans-serif;
-  font-variation-settings: "wght" var(--fwmain);
+  font-family: var(--main-font), "Arial", sans-serif;
+  font-variation-settings: "wght" var(--fw-main);
   font-size: 18px;
   background-color: var(--bgc);
   color: var(--fc);
@@ -26,7 +26,7 @@
 }
 
 .header {
-  font-family: var(--accfont), "fantasy", sans-serif;
+  font-family: var(--acc-font), "fantasy", sans-serif;
   padding-block-start: clamp(7.5rem, 7.148rem + 1.69vw, 8.5rem);
   display: grid;
   justify-items: center;
@@ -45,7 +45,7 @@
   font-size: clamp(3.063rem, 2.71rem + 1.69vw, 4.063rem);
   line-height: clamp(3.063rem, 2.71rem + 1.69vw, 4.063rem);
   margin-block-end: 20px;
-  font-variation-settings: "wght" var(--fwsubtitle);
+  font-variation-settings: "wght" var(--fw-subtitle);
   text-transform: uppercase;
 }
 
@@ -53,7 +53,7 @@
   font-size: clamp(0.875rem, 0.677rem + 0.951vw, 1.438rem);
   line-height: clamp(0.875rem, 0.677rem + 0.951vw, 1.438rem);
   margin-block-end: 25px;
-  font-variation-settings: "wght" var(--fwsubtitle);
+  font-variation-settings: "wght" var(--fw-subtitle);
   text-transform: uppercase;
 }
 
@@ -135,14 +135,14 @@
 }
 
 .card-title {
-  font-variation-settings: "wght" var(--fwtitle);
+  font-variation-settings: "wght" var(--fw-title);
   line-height: 1.21;
   font-size: 18px;
   padding: 4px 19px 5px 12px;
 }
 
 .card-description {
-  font-variation-settings: "wght" var(--fwsubtitle);
+  font-variation-settings: "wght" var(--fw-subtitle);
   line-height: 1.17;
   font-size: 18px;
   padding: 28px 37px 30px 28px;
@@ -174,7 +174,7 @@
   position: absolute;
   opacity: 50%;
   z-index: 1;
-  font-family: var(--accfont), "fantasy", sans-serif;
+  font-family: var(--acc-font), "fantasy", sans-serif;
   font-size: 14px;
   line-height: 14px;
   top: 27px;
@@ -299,10 +299,10 @@
 }
 
 .button__text {
-  font-family: var(--accfont), "fantasy", sans-serif;
+  font-family: var(--acc-font), "fantasy", sans-serif;
   font-size: 14px;
   line-height: 12.6px;
-  font-weight: var(--fwsubtitle);
+  font-weight: var(--fw-subtitle);
   color: var(--fc);
   text-align: center;
 }

@@ -1,11 +1,11 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --mainfont: "Inter-Variable";
-  --accfont: "PressStart2P";
-  --fwmain: 400;
-  --fwacc: 700;
-  --fwsubtitle: 400;
-  --fwtitle: 700;
+  --main-font: "Inter-Variable";
+  --acc-font: "PressStart2P";
+  --fw-main: 400;
+  --fw-acc: 700;
+  --fw-subtitle: 400;
+  --fw-title: 700;
   --fc: #000000;
   --bgc: #ffffff;
   --bgi: repeating-linear-gradient(90deg, #d3d3d3 0px 2px, transparent 2px 4px),
