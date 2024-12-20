@@ -33,11 +33,11 @@
   margin: 100px 0 107px 0;
   width: 100%;
   padding-bottom: 13px;
+  background-color: var(--bgc);
 }
 
 .section {
   width: 100%;
-  background-color: var(--bgc);
   outline: 2px solid var(--border-color);
 }
 
@@ -66,6 +66,7 @@
 .card-item {
   outline: 2px solid var(--border-color);
   border: none;
+  background-color: var(--bgc);
 }
 
 .theme-menu__list {
@@ -145,20 +146,20 @@
   font-variation-settings: "wght" var(--fw-subtitle);
   line-height: 1.17;
   font-size: 18px;
-  padding: 28px 37px 30px 28px;
-}
-
-.card-desc {
-  padding: 0 37px 25px 27px;
+  padding: 29px 37px 30px 25px;
+  display: grid;
+  gap: 27px;
 }
 
 .image-box {
+  display: flex;
   margin: 0 auto;
   position: relative;
   inset: 0;
   z-index: 0;
   width: 100%;
-  aspect-ratio: 1 / 1;
+  outline: 2px solid var(--border-color);
+  aspect-ratio: 1/1;
 }
 
 .image {
@@ -167,7 +168,6 @@
   object-fit: cover;
   object-position: center;
   border: none;
-  outline: 2px solid var(--border-color);
 }
 
 .watermark {
@@ -203,7 +203,6 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  transform-origin: center;
 }
 
 .sparks {
@@ -247,10 +246,6 @@
   transition: fill 0.3s linear;
 }
 
-.like-icon {
-  transform-origin: center;
-}
-
 .like-icon.is-liked .core {
   opacity: 1;
   fill: var(--spark);
@@ -274,7 +269,7 @@
 }
 
 .like-icon.is-liked .heart {
-  transform-origin: 11px 11px;
+  transform-origin: center;
   animation: scal 0.3s 0.1s ease-in alternate;
 }
 
@@ -348,13 +343,13 @@ dialog::backdrop {
   position: fixed;
   inset: 0;
   display: grid;
+  grid-template-rows: repeat(2, min-content);
   padding: 30px 42px;
   margin: auto;
   gap: 30px;
   border: none;
   background-color: var(--bgc);
   outline: 2px solid var(--border-color);
-  max-height: 191px;
   width: clamp(21.313rem, 21.048rem + 1.268vw, 22.063rem);
 }
 
